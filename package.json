@@ -7,15 +7,13 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.cts",
   "scripts": {
-    "build": "pkgroll --clean-dist",
-    "build-old": "pkgroll --clean-dist"
+    "build": "pkgroll --clean-dist"
   },
   "dependencies": {
     "ajv": "^8.17.1"
   },
   "devDependencies": {
     "pkgroll": "^2.21.3",
-    "old-pkgroll": "npm:pkgroll@2.20.1",
     "typescript": "^5.5.3"
   }
 }

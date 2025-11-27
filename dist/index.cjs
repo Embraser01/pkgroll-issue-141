@@ -1,5 +1,5 @@
 'use strict';
 
-var _2019_js = require('ajv/dist/2019.js');
+var _2019_ts = require('ajv/dist/2019.ts');
 
-console.log("Happy developing \u2728", _2019_js.Ajv2019);
+console.log("Happy developing \u2728", _2019_ts.Ajv2019);
